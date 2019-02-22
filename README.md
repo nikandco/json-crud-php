@@ -3,7 +3,14 @@ JSON files used as DB on your server running PHP. Perform CRUD operations and wo
 It functions like a REST API in the following format file / jsonKey
 Example request
 GET /jsonObjectFile/users
-
+response
+{
+"niki":
+  { 
+    "todo":  "22-02-2019",
+    "shopList": ['eggs','milk','water']
+  }
+}
 would return whatever the users key holds
 
 Example edit request

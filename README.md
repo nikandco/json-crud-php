@@ -7,8 +7,8 @@ GET /jsonObjectFile/users
 would return whatever the users key holds
 
 Example edit request
-POST /jsonObjectFile/users/niki
-data {"todo":"22-02-2019","shopList":['eggs','milk','water']}
+  POST /jsonObjectFile/users/niki
+  data: {"todo":"22-02-2019","shopList":['eggs','milk','water']}
 
 
 
